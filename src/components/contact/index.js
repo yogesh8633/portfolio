@@ -113,8 +113,8 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="row no-gutters block-9">
-          <div className="col-md-6 order-md-last d-flex">
+        <div className="row no-gutters block-9 d-flex justify-content-center">
+          <div className=" order-md-last " style={{width:"70%"}}>
             <form
               ref={form}
               onSubmit={(e) => handleOnSubmit(e)}
@@ -141,12 +141,7 @@ const ContactUs = () => {
             </form>
           </div>
 
-          <div className="col-md-6 d-flex ">
-            <div
-              className="img"
-              style={{ backgroundImage: "url('assets/images/photo.png')" }}
-            ></div>
-          </div>
+          
         </div>
       </div>
     </section>
