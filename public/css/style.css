@@ -11051,6 +11051,11 @@ h5,
   z-index: -1;
   height: 100%;
 }
+@media only screen and (max-width: 768px) {
+  .homeImg{
+    display: none;
+  }
+}
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
   position: absolute;
   top: 0;
