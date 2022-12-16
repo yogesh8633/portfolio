@@ -24,7 +24,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-lg-6 homeImg">
-            <img src="assets/images/bg_1.png" alt ="MY_IMAGE"style={{  height: "150%",marginTop: "-26%"}}/>
+            <img src="assets/images/bg_1.png" alt ="MY_IMAGE" style={{  height: "150%",marginTop: "-26%"}}/>
           </div>
         </div>
       </div>

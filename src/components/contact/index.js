@@ -98,7 +98,7 @@ const ContactUs = () => {
               <p>
                 <a href="mailto:yogeshg9711@gmail.com">yogeshg9711@gmail.com</a>
               </p>
-            </div>
+            </div>  
           </div>
           <div className="col-md-6 col-lg-3 d-flex ftco-animate">
             <div className="align-self-stretch box p-4 text-center">
@@ -107,7 +107,7 @@ const ContactUs = () => {
               </div>
               <h3 className="mb-4">Website</h3>
               <p>
-                <a href="/#">yogeshg</a>
+                <a href="https://yogeshportfolio.vercel.app/" target="_blank" rel="noreferrer">YOGESH-PORTFOLIO</a>
               </p>
             </div>
           </div>
