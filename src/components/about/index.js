@@ -1,3 +1,5 @@
+import resume from "../contact/utils/RESUME-YOGESH.pdf";
+
 const AboutUs = () => {
   return (
     <section
@@ -43,10 +45,10 @@ const AboutUs = () => {
                     <span>Zip code:</span> <span>110045</span>
                   </li>
                   <li className="d-flex">
-                    <span>Email:</span> <span>yogeshg9711@gmail.com</span>
+                    <span>Email:</span>   <a href="mailto:yogeshg9711@gmail.com" >yogeshg9711@gmail.com</a>
                   </li>
                   <li className="d-flex">
-                    <span>Phone: </span> <span>+91-9711708633</span>
+                    <span>Phone: </span>   <a href="tel://9711708633">+91-9711708633</a>
                   </li>
                 </ul>
               </div>
@@ -55,8 +57,11 @@ const AboutUs = () => {
               <div className="text">
                 <p>
                   <a
-                    href="https://drive.google.com/file/d/1ASXrCtRu0FmpZIR0m19pu-Z_82qJCFlZ/view?usp=sharing"
+                    href={resume}
+                    download="RESUME-YOGESH"
+                    target='_blank'
                     className="btn btn-primary py-3 px-3"
+                    rel="noreferrer"
                   >
                     Download CV
                   </a>

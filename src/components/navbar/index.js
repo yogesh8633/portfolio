@@ -1,7 +1,8 @@
+import { useState } from "react";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
   return (
-    
     <nav
       className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
       id="ftco-navbar"
@@ -15,6 +16,7 @@ const Navbar = () => {
           type="button"
           data-toggle="collapse"
           data-target="#ftco-nav"
+          onClick={() => setShow(!show)}
           aria-controls="ftco-nav"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -22,10 +24,14 @@ const Navbar = () => {
           <span className="oi oi-menu"></span> Menu
         </button>
 
-        <div className="collapse navbar-collapse" id="ftco-nav">
+        <div
+          className={`collapse navbar-collapse ${show ? "show" : ""}`}
+          onClick={() => setShow(!show)}
+          id="ftco-nav"
+        >
           <ul className="navbar-nav nav ml-auto">
             <li className="nav-item">
-              <a href="#home" className="nav-link" >
+              <a href="#home" className="nav-link">
                 <span>Home</span>
               </a>
             </li>
