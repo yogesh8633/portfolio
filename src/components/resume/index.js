@@ -40,7 +40,21 @@ const Resume = () => {
               <span className="position">UrbanHat Management</span>
               <p className="mt-4">
                 Developed multiple UI for various projects using ReactJS, HTML,
-                and CSS
+                and CSS. Handled multiple clients and their projects based on
+                ecommerce and websites. Used ReactJs, HTML, CSS, Bootstrap
+              </p>
+            </div>
+            <div className="resume-wrap ftco-animate">
+              <span className="date">May'23 - June'24 </span>
+              <h2>Junior Solutions Architect</h2>
+              <span className="position">Ocpl Tech</span>
+              <p className="mt-4">
+                As a Junior Solutions Architect at OCPL TECH, I handled client
+                meetings, delegated tasks among team members, and worked on our
+                flagship product, AESTRA CRM. I used React to create dynamic
+                user interfaces, and employed ReactJS,HTML, CSS, SASS, and Bootstrap for
+                styling and responsive design. I also gained experience with
+                Dapps, including wallet integration.
               </p>
             </div>
           </div>
@@ -66,6 +80,33 @@ const Resume = () => {
               <span className="position">Hatke Attire</span>
               <p className="mt-4">
                 Worked on a project entitled Hatke Attire web application
+              </p>
+            </div>
+            <div className="resume-wrap ftco-animate">
+              <span className="date">Feb'23 - May'23 </span>
+              <h2>Web Developer</h2>
+              <span className="position">Sarvvid AI</span>
+              <p className="mt-4">
+                I utilized React to build dynamic user interfaces and HTML, CSS,
+                and SASS for styling and layout. I also employed Bootstrap to
+                ensure the websites were responsive and consistent across
+                different devices and screen sizes.
+              </p>
+            </div>
+            <div className="resume-wrap ftco-animate">
+              <span className="date">June'24 - Present</span>
+              <h2>Senior Solutions Architect</h2>
+              <span className="position">Ocpl Tech</span>
+              <p className="mt-4">
+                In my role as a Senior Solutions Architect at OCPL TECH, I took
+                on client meetings, coordinated team efforts, and led the
+                development of AESTRA CRM, our flagship product. My
+                responsibilities included overseeing complex projects,
+                optimizing performance, and implementing role-based access
+                controls. I leveraged React for dynamic interfaces, utilized ReactJS,
+                HTML, CSS, SASS, and Bootstrap for styling, and managed Dapps
+                with wallet integrations, ensuring scalability and high
+                performance.
               </p>
             </div>
           </div>

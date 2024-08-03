@@ -8,7 +8,7 @@ const AboutUs = () => {
     >
       <div className="container">
         <div className="row d-flex">
-          <div className="col-md-6 col-lg-5 d-flex">
+          {/* <div className="col-md-6 col-lg-5 d-flex">
             <div className="img-about img d-flex align-items-stretch">
               <div className="overlay"></div>
               <div
@@ -16,8 +16,8 @@ const AboutUs = () => {
                 style={{ backgroundImage: "url(assets/images/photo-2.png)" }}
               ></div>
             </div>
-          </div>
-          <div className="col-md-6 col-lg-7 pl-lg-5 pb-5">
+          </div> */}
+          <div className="col-md-12 col-lg-12 pl-lg-5 pb-5">
             <div className="row justify-content-start pb-3">
               <div className="col-md-12 heading-section ftco-animate">
                 <h1 className="big">About</h1>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                   self-manage during independent projects, as well as
                   collaborate in a team setting.
                 </p>
-                <ul className="about-info mt-4 px-md-0 px-2">
+                <ul className="about-info mt-4 px-md-0 px-2 ">
                   <li className="d-flex">
                     <span>Name:</span> <span>Yogesh Gupta</span>
                   </li>
