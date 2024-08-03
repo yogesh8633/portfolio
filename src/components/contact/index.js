@@ -118,7 +118,7 @@ const ContactUs = () => {
             <form
               ref={form}
               onSubmit={(e) => handleOnSubmit(e)}
-              className="bg-light p-4 p-md-5 contact-form"
+              className="bg-dark p-4 p-md-5 contact-form "
             >
               {FIELDS.map((item, index) => (
                 <div className="mb-2" key={index}>

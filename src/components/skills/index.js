@@ -13,6 +13,23 @@ const Skills = () => {
           </div>
         </div>
         <div className="row">
+        <div className="col-md-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>ReactJS</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-4"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "85%" }}
+                >
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
               <h3>HTML</h3>
@@ -64,23 +81,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
-              <h3>ReactJS</h3>
-              <div className="progress">
-                <div
-                  className="progress-bar color-4"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                >
-                  <span>75%</span>
-                </div>
-              </div>
-            </div>
-          </div>
+       
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
               <h3>Bootstrap</h3>

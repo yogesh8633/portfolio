@@ -13,6 +13,38 @@ const Projects = () => {
           </div>
         </div>
         <div className="row">
+        <div className="col-md-8">
+            <a href="https://khalsapackersmovers.com" target="_blank" rel="noreferrer" >
+              <div
+                className="project img ftco-animate d-flex justify-content-center align-items-center"
+                style={{
+                  backgroundImage: "url('assets/images/project-5.png')",
+                }}
+              >
+                <div className="overlay"></div>
+                <div className="text text-center p-4">
+                  <h3>Khalsa Packers and Movers</h3>
+                  <span>Website</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="col-md-4">
+            <a href="https://aestra-new.pages.dev" target="_blank" rel="noreferrer" >
+              <div
+                className="project img ftco-animate d-flex justify-content-center align-items-center"
+                style={{
+                  backgroundImage: "url('assets/images/project-6.png')",
+                }}
+              >
+                <div className="overlay"></div>
+                <div className="text text-center p-4">
+                  <h3>AESTRA CRM</h3>
+                  <span>CRM</span>
+                </div>
+              </div>
+            </a>
+          </div>
           <div className="col-md-4">
             <a href="https://github.com/yogesh8633/THE-FOOD-ORDERING-APP" target="_blank" rel="noreferrer" >
               <div
