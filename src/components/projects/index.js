@@ -21,7 +21,7 @@ const Projects = () => {
                   backgroundImage: "url('assets/images/project-5.png')",
                 }}
               >
-                <div className="overlay"></div>
+                   <div className="overlay"></div>
                 <div className="text text-center p-4">
                   <h3>Khalsa Packers and Movers</h3>
                   <span>Website</span>
@@ -46,7 +46,7 @@ const Projects = () => {
             </a>
           </div>
           <div className="col-md-4">
-            <a href="https://github.com/yogesh8633/THE-FOOD-ORDERING-APP" target="_blank" rel="noreferrer" >
+            <a href="https://dynamic-comment-eight.vercel.app/" target="_blank" rel="noreferrer" >
               <div
                 className="project img ftco-animate d-flex justify-content-center align-items-center"
                 style={{
@@ -55,8 +55,8 @@ const Projects = () => {
               >
                 <div className="overlay"></div>
                 <div className="text text-center p-4">
-                  <h3>The Food Ordering App</h3>
-                  <span>Web Design</span>
+                  <h3>Dynamic Comment System</h3>
+                  <span>Google Firebase</span>
                 </div>
               </div>
             </a>

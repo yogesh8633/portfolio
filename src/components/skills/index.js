@@ -32,6 +32,40 @@ const Skills = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
+              <h3>NextJS</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-4"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "85%" }}
+                >
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Typescript</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-4"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "85%" }}
+                >
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap ftco-animate">
               <h3>HTML</h3>
               <div className="progress">
                 <div

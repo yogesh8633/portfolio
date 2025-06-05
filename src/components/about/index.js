@@ -20,7 +20,7 @@ const AboutUs = () => {
                 <h1 className="big">About</h1>
                 <h2 className="mb-4">About Me</h2>
                 <p>
-                  With over 2.3 years of experience in frontend development, I
+                  With over 3.2 years of experience in frontend development, I
                   specialize in designing and developing high-performance web
                   applications using ReactJS, Next.js, and modern JavaScript
                   frameworks. I have consistently delivered projects that

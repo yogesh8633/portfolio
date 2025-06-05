@@ -45,7 +45,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="resume-wrap ftco-animate">
-              <span className="date">Aug'22 - Present</span>
+              <span className="date">Aug'22 - Nov'24</span>
               <h2>Software Engineer - Frontend</h2>
               <span className="position">Ocpl Tech</span>
               <p className="mt-4">
@@ -108,6 +108,13 @@ const Resume = () => {
                 ensure the websites were responsive and consistent across
                 different devices and screen sizes.
               </p>
+            </div>
+            <div className="resume-wrap ftco-animate">
+              <span className="date">Nov'24 - Present</span>
+              <h2>Software Developer</h2>
+              <span className="position">Binmile Technologies(Adani Digital Labs)</span>
+              <p className="mt-4">
+              As a Software Developer at Binmile for Adani Digital Labs, I developed and optimized core modules like F&B and Duty-Free for the Adani One platform. I utilized Next.js, React, Tailwind CSS, and RxJS to implement features like 15-min delivery, and dynamic UI components. I focused on performance by integrating SSR, caching, and code splitting—improving Lighthouse scores from 40 to 90+ and reducing the final document size by ~50%, ensuring scalability, speed, and a seamless user experience.              </p>
             </div>
           
           </div>
